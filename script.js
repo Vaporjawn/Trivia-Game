@@ -1,5 +1,7 @@
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
+const addButton = document.getElementById('add-btn')
+const saveButton = document.getElementById('save-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
@@ -85,12 +87,12 @@ const questions = [
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'What is pi?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: '1.77', correct: false },
+      { text: '2.45', correct: false },
+      { text: '3.14', correct: true },
+      { text: '3.96', correct: true }
     ]
   },
   {
